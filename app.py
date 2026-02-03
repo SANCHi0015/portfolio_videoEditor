@@ -75,6 +75,12 @@ with col4:
     st.video("https://www.youtube.com/watch?v=VIDEO_LINK_4")
     st.caption("🎶 UI Saas Explainer Edit")
 
+col5, col6 = st.columns(2)
+
+with col5:
+    st.video("https://youtu.be/04xe89u49BA")
+    st.caption("🎨 Intro")
+
 st.markdown("---")
 
 # ------------------ Skills Section ------------------
@@ -102,3 +108,4 @@ st.markdown("---")
 
 # ------------------ Footer ------------------
 st.markdown("<div class='footer'>© 2026 Savya Sanchi | Built with Streamlit</div>", unsafe_allow_html=True)
+
